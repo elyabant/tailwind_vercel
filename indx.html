@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/output.css">
+    <title>Portfolio</title>
+    </head>
+<body class="scroll-smooth">
+    <header>
+      <nav class="w-full h-16 bg-cyan-600/90 backdrop-blur-md fixed top-0 left-0 z-50 flex justify-between items-center px-4">
+        <img
+          src="https://play-lh.googleusercontent.com/0B503CqG8lLyTKtb1Brnxe2CWcSRPZ74aOE5gG984l6CS7NIUqeuWEgc3DIZmgEiBuVx"
+          alt="logo"
+          width="50"
+        />
+        <ul class="flex text-lg font-medium uppercase gap-6 pr-20 text-white">
+          <li><a href="#About">about</a></li>
+          <li><a href="#Myproject">my project</a></li>
+          <li><a href="#Contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="w-full h-screen">
+        <div class="container">
+          <div class="flex flex-wrap pl-16">
+            <div class="w-full self-center px-4 lg:w-1/2">
+                <h1 class="text-base font-semibold text-primary">Hello everyone, my name <span class="block font-bold text-dark text-4xl mt-1"> Ya'qub Abdullah</span></h1>
+                <h2 class="font-medium text-slate-500 text-lg mb-5">Beginner Frontend</h2>
+                <p class="font-medium text-slate-400 mb-10 leading-relaxed">Learning a programming language is fun, isn't it? Although sometimes you encounter errors</p>
+
+                <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out ">Contact me</a>
+            </div>
+
+            <div class="w-full self-end pl-12 lg:w-1/2">
+                <div class="relative mt-10">
+                    <img src="/image/saya.png" alt="gambar-saya" class="max-w-full mx-auto">
+                    <span class="absolute bottom-0 -z-10 left-28 -translate-x-3">
+                      <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#14b8a6" d="M35.7,-40C44.6,-26.7,49.1,-13.4,50.4,1.4C51.8,16.1,50.1,32.2,41.2,41C32.2,49.7,16.1,51.1,-3.1,54.2C-22.3,57.3,-44.6,62,-56.7,53.3C-68.8,44.6,-70.8,22.3,-64.5,6.2C-58.3,-9.8,-43.8,-19.6,-31.7,-32.9C-19.6,-46.2,-9.8,-63.1,1.8,-64.8C13.4,-66.6,26.7,-53.4,35.7,-40Z" transform="translate(100 100) scale(1.2)" />
+                      </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+      </div>
+      </section>
+
+      <section id="About">
+        <h2 class="text-center text-4xl font-medium uppercase">About me</h2>
+        <div class="w-full flex justify-center">
+          <p class="text-base text-center w-2/4 pt-8">
+            I am a beginner web developer who is studying in college, I am trying to get used to coding websites and portfolios using HTML, Tailwind css, and a little Javascript, I hope that in the future I can become a fullstack developer.
+          </p>
+          <!-- <div>
+            <i class='bx bxl-html5'></i>
+          </div> -->
+        </div>
+      </section>
+
+      <section id="Myproject" class="p-8 bg-gray-100 mt-8">
+        <h2 class="text-center text-4xl font-medium uppercase mb-8">My Project</h2>
+        <div class="flex flex-wrap justify-center gap-8 ">
+          <div class="card w-1/4 bg-slate-200 p-6 rounded-xl shadow-lg flex flex-col items-center">
+            <img src="/image/card1.png" alt="Card image" class="w-full h-48 object-cover rounded-lg">
+            <h3 class="text-center text-2xl pt-6 font-medium">Title</h3>
+            <p class="text-center text-sm mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sint veritatis, sed nemo explicabo.</p>
+          </div>
+        
+          <div class="card w-1/4 bg-slate-200 p-6 rounded-xl shadow-lg flex flex-col items-center">
+            <img src="/image/card2.png" alt="Card image" class="w-full h-48 object-cover rounded-lg">
+            <h3 class="text-center text-2xl pt-6 font-medium">Title</h3>
+            <p class="text-center text-sm mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sint veritatis, sed nemo explicabo.</p>
+          </div>
+        
+          <div class="card w-1/4 bg-slate-200 p-6 rounded-xl shadow-lg flex flex-col items-center">
+            <img src="/image/card3.png" alt="Card image" class="w-full h-48 object-cover rounded-lg">
+            <h3 class="text-center text-2xl pt-6 font-medium">Title</h3>
+            <p class="text-center text-sm mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sint veritatis, sed nemo explicabo.</p>
+          </div>
+        
+          <div class="card w-1/4 bg-slate-200 p-6 rounded-xl shadow-lg flex flex-col items-center">
+            <img src="/image/card.png" alt="Card image" class="w-full h-48 object-cover rounded-lg">
+            <h3 class="text-center text-2xl pt-6 font-medium">Title</h3>
+            <p class="text-center text-sm mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sint veritatis, sed nemo explicabo.</p>
+          </div>
+        </div>
+      </section>
+      
+      <section id="Contact" class="p-8 bg-gray-200">
+        <h2 class="text-center text-4xl font-medium uppercase mb-8">Contact me</h2>
+        
+        <div class="flex flex-col md:flex-row justify-between items-start gap-8">
+          
+          <!-- Peta -->
+          <div class="flex-1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.9715493352455!2d107.0355606726741!3d-6.525276963787136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69bc6e5be3d9bd%3A0x6b9881dabd801476!2sSMK%20IDN%20Boarding%20School!5e0!3m2!1sid!2sid!4v1723724213456!5m2!1sid!2sid"
+              frameborder="0" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          
+          <!-- Form Input -->
+          <div class="flex-1 bg-white p-8 rounded-lg shadow-md">
+            <h3 class="text-2xl font-semibold mb-4">Hubungi Kami</h3>
+            <form>
+              <div class="mb-4">
+                <label for="name" class="block text-sm font-medium text-gray-700">Nama</label>
+                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Masukkan nama Anda">
+              </div>
+              <div class="mb-4">
+                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Masukkan email Anda">
+              </div>
+              <div class="mb-4">
+                <label for="message" class="block text-sm font-medium text-gray-700">Pesan</label>
+                <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Tulis pesan Anda"></textarea>
+              </div>
+              <button type="submit" class="px-6 py-2 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-600 focus:ring-4 focus:ring-blue-300">
+                Kirim
+              </button>
+            </form>
+          </div>
+          
+        </div>
+      </section>
+      
+      <footer class="w-full h-16 bg-cyan-600 text-center p-4">
+        <p class="text-base text-teal-50 font-medium">&copy; Yaqubantul 2024</p>
+      </footer>
+      
+  </body>
+</html>
